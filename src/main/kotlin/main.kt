@@ -56,13 +56,35 @@ fun main(args: Array<String>) {
     // }
 
 
-    val array = intArrayOf(454,454,4545,454,545,454,545,45,4,54,54,5,45,45,)
+//    val array = intArrayOf(454,454,4545,454,545,454,545,45,4,54,54,5,45,45,)
+//
+//    val array1 = arrayListOf("jaxadev","Youtube",5544,'c')
+//
+//    for (i in arrayOf("String",454,'c',45.54F)) {
+//
+//        println(i)
+//
+//    }
 
-    val array1 = arrayListOf("jaxadev","Youtube",5544,'c')
 
-    for (i in arrayOf("String",454,'c',45.54F)) {
+    first@ for(i in 0..5){
 
-        println(i)
+        println("i = $i")
+
+       second@ for (j in 0..10){
+
+            println("j = $j")
+
+           for (g in 0..10){
+
+               println("g = $g")
+
+               if (g == 4) break@second
+
+           }
+
+        }
+
 
     }
 
