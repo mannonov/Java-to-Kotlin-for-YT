@@ -67,25 +67,34 @@ fun main(args: Array<String>) {
 //    }
 
 
-    first@ for(i in 0..5){
+//    first@ for(i in 0..5){
+//        println("i = $i")
+//       second@ for (j in 0..10){
+//            println("j = $j")
+//           for (g in 0..10){
+//               println("g = $g")
+//               if (g == 4) break@second
+//           }
+//        }
+//    }
 
-        println("i = $i")
 
-       second@ for (j in 0..10){
+//        for (i in 0..100){
+//
+//            if (i % 2 == 0){
+//                continue
+//            }
+//            println("i = $i")
+//        }
 
-            println("j = $j")
+   first@ for (i in 0..100){
+      second@  for (j in 100 downTo 0){
 
-           for (g in 0..10){
-
-               println("g = $g")
-
-               if (g == 4) break@second
-
-           }
-
+          if (i + j % 2 == 0){
+              continue@first
+          }
+          println("i + j = ${i + j}")
         }
-
-
     }
 
 
