@@ -87,15 +87,24 @@ fun main(args: Array<String>) {
 //            println("i = $i")
 //        }
 
-   first@ for (i in 0..100){
-      second@  for (j in 100 downTo 0){
+//   first@ for (i in 0..100){
+//      second@  for (j in 100 downTo 0){
+//
+//          if (i + j % 2 == 0){
+//              continue@first
+//          }
+//          println("i + j = ${i + j}")
+//        }
+//    }
 
-          if (i + j % 2 == 0){
-              continue@first
-          }
-          println("i + j = ${i + j}")
-        }
+    val result = fun(a: Int, b: Int): Int {
+        return a * b
     }
 
+    println(result(5,5))
 
+}
+
+fun multiply(a: Int, b: Int): Int {
+    return a * b
 }
