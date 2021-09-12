@@ -96,15 +96,30 @@ fun main(args: Array<String>) {
 //          println("i + j = ${i + j}")
 //        }
 //    }
+//
+//    val result = fun(a: Int, b: Int): Int {
+//        return a * b
+//    }
+//
+//    println(result(5,5))
 
-    val result = fun(a: Int, b: Int): Int {
-        return a * b
-    }
+    // || = or, && = and
 
-    println(result(5,5))
+    val a = true
+    val b = false
+    var result:Boolean
 
+    result = a or b //a.or(b) = a || b
+    println("result = $result")
+
+    result = b and a //b.and(a) = b && a
+    println("result = $result")
+
+    val human = Human()
+//    human.sayName("Jahongir")
+    human sayName "Jahongir"
 }
 
-fun multiply(a: Int, b: Int): Int {
-    return a * b
-}
+//fun multiply(a: Int, b: Int): Int {
+//    return a * b
+//}
