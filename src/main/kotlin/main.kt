@@ -104,20 +104,27 @@ fun main(args: Array<String>) {
 //    println(result(5,5))
 
     // || = or, && = and
+//
+//    val a = true
+//    val b = false
+//    var result:Boolean
+//
+//    result = a or b //a.or(b) = a || b
+//    println("result = $result")
 
-    val a = true
-    val b = false
-    var result:Boolean
+//    result = b and a //b.and(a) = b && a
+//    println("result = $result")
 
-    result = a or b //a.or(b) = a || b
-    println("result = $result")
+//    val human = Human()
+//    human.sayName("Jahongir")
+//    human sayName "Jahongir"
 
-    result = b and a //b.and(a) = b && a
-    println("result = $result")
 
     val human = Human()
-//    human.sayName("Jahongir")
-    human sayName "Jahongir"
+
+    human.sayFullName(fName = "Jahongir", lName = "Mannonov")
+
+
 }
 
 //fun multiply(a: Int, b: Int): Int {
