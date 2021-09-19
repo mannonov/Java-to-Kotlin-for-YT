@@ -1,5 +1,3 @@
-import java.util.*
-
 fun main(args: Array<String>) {
 
 //    val value = 4546546.4545F
@@ -119,11 +117,25 @@ fun main(args: Array<String>) {
 //    human.sayName("Jahongir")
 //    human sayName "Jahongir"
 
+//
+//    val human = Human()
+//
+//    human.sayFullName(fName = "Jahongir", lName = "Mannonov")
 
-    val human = Human()
+    val nexia = Car(125, "Ravon R3") //in Java Car nexia = new Car();
 
-    human.sayFullName(fName = "Jahongir", lName = "Mannonov")
+    nexia.turnOn()
+    nexia.turnOf()
 
+    println("nexia otKuchi = ${nexia.otKuchi}")
+    println("nexia mashinaModeli = ${nexia.mashinaModel}")
+
+    val bmw = Car(150, "X5 1990")
+    bmw.turnOn()
+    bmw.turnOf()
+
+    println("bmw otKuchi = ${bmw.otKuchi}")
+    println("bmw mashinaModeli = ${bmw.mashinaModel}")
 
 }
 
