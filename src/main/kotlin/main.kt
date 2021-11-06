@@ -121,21 +121,28 @@ fun main(args: Array<String>) {
 //    val human = Human()
 //
 //    human.sayFullName(fName = "Jahongir", lName = "Mannonov")
+//
+//    val nexia = Car(125, "Ravon R3") //in Java Car nexia = new Car();
+//
+//    nexia.turnOn()
+//    nexia.turnOf()
+//
+//    println("nexia otKuchi = ${nexia.otKuchi}")
+//    println("nexia mashinaModeli = ${nexia.mashinaModel}")
+//
+//    val bmw = Car(150, "X5 1990")
+//    bmw.turnOn()
+//    bmw.turnOf()
+//
+//    println("bmw otKuchi = ${bmw.otKuchi}")
+//    println("bmw mashinaModeli = ${bmw.mashinaModel}")
 
-    val nexia = Car(125, "Ravon R3") //in Java Car nexia = new Car();
 
-    nexia.turnOn()
-    nexia.turnOf()
+    val jahongir = Person(fName = "Jahongir",lName = "Mannonov")
 
-    println("nexia otKuchi = ${nexia.otKuchi}")
-    println("nexia mashinaModeli = ${nexia.mashinaModel}")
+    println(jahongir.fName)
+    println(jahongir.lName)
 
-    val bmw = Car(150, "X5 1990")
-    bmw.turnOn()
-    bmw.turnOf()
-
-    println("bmw otKuchi = ${bmw.otKuchi}")
-    println("bmw mashinaModeli = ${bmw.mashinaModel}")
 
 }
 
