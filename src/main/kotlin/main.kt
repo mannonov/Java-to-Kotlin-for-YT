@@ -140,9 +140,11 @@ fun main(args: Array<String>) {
 
     val jahongir = Person(fName = "Jahongir",lName = "Mannonov")
 
-    println(jahongir.fName)
+//    println(jahongir.fName)
     println(jahongir.lName)
 
+//    jahongir.fName = ""
+    println(jahongir.fName)
 
 }
 
