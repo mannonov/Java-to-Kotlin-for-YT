@@ -147,19 +147,21 @@ fun main(args: Array<String>) {
 //    println(jahongir.fName)
 
 
-    val animal = Animal(25, "Blue")
-    animal.eat()
-    animal.sleep()
-    animal.walk()
-    println(animal.size)
+//    val animal = Animal(25, "Blue")
+//    animal.eat()
+//    animal.sleep()
+//    animal.walk()
+//    println(animal.size)
+//
+//    val sheep = Sheep(32, "Black")
+//    sheep.eat()
+//    sheep.sleep()
+//    sheep.walk()
+//    sheep.mee()
+//    println(sheep.size)
 
-    val sheep = Sheep(32, "Black")
-    sheep.eat()
-    sheep.sleep()
-    sheep.walk()
-    sheep.mee()
-    println(sheep.size)
-
+    val childModifier = ChildModifier()
+    println(childModifier.name)
 
 }
 
