@@ -136,15 +136,30 @@ fun main(args: Array<String>) {
 //
 //    println("bmw otKuchi = ${bmw.otKuchi}")
 //    println("bmw mashinaModeli = ${bmw.mashinaModel}")
-
-
-    val jahongir = Person(fName = "Jahongir",lName = "Mannonov")
-
+//
+//
+//    val jahongir = Person(fName = "Jahongir",lName = "Mannonov")
+//
+////    println(jahongir.fName)
+//    println(jahongir.lName)
+//
+////    jahongir.fName = ""
 //    println(jahongir.fName)
-    println(jahongir.lName)
 
-//    jahongir.fName = ""
-    println(jahongir.fName)
+
+    val animal = Animal(25, "Blue")
+    animal.eat()
+    animal.sleep()
+    animal.walk()
+    println(animal.size)
+
+    val sheep = Sheep(32, "Black")
+    sheep.eat()
+    sheep.sleep()
+    sheep.walk()
+    sheep.mee()
+    println(sheep.size)
+
 
 }
 
